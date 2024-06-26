@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="images/Tommy_Me.jpg" alt="Tommy Minter">
+            <div class="bio">
+                <h1>Tommy Minter</h1>
+                <h2>Your Friendly Neighborhood Game Developer</h2>
+                <p>Hello! I’m a driven newcomer in game development, passionate about crafting immersive gaming experiences with my strong technical skills in C++, C#, Unity, and Unreal Engine. As a Vancouver Film School graduate in Programming for Games, Web, and Mobile, I bring a unique perspective and a commitment to continual learning. With a keen eye for game design and a collaborative spirit, I’m eager to tackle challenges and enhance any game development team with innovative solutions. I’m excited to connect and discuss how I can contribute to your projects with my skills and passion for game development. Let’s connect!</p>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="mailto:tommy@knocktwice.ca"><i class="fas fa-envelope icon"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/thomas-minter-0a258220b/" target="_blank"><i class="fab fa-linkedin icon"></i></a></li>
+                <li><a href="https://github.com/pg25tommy" target="_blank"><i class="fab fa-github icon"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p class="project-description">Here you find some of my projects that I have been fortunate enough to work on</p>
+            <div class="carousel">
+                <button id="prev" class="carousel-btn">‹</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <!-- Projects will be dynamically added here -->
+                    </ul>
+                </div>
+                <button id="next" class="carousel-btn">›</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tommy Minter. All rights reserved.</p>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="mailto:tommy@knocktwice.ca"><i class="fas fa-envelope icon"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/thomas-minter-0a258220b/" target="_blank"><i class="fab fa-linkedin icon"></i></a></li>
+                <li><a href="https://github.com/pg25tommy" target="_blank"><i class="fab fa-github icon"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
